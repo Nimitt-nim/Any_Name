@@ -3,7 +3,6 @@
 ## Compute Markov Bound
 def markov_bound(mu, a):
     '''Compute Markov Bound'''
-    print("markov running")
     if a == 0:
         return 0
     return mu/a
