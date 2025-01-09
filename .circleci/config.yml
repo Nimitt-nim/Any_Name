@@ -20,7 +20,10 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command: "python3 any_file.py \ gcc any_file.c \ Incorrect Command"
+          command: |
+                    python3 any_file.py;
+                    gcc any_file.c;
+                    
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/workflows/ & https://circleci.com/docs/configuration-reference/#workflows
