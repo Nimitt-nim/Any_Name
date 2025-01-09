@@ -6,8 +6,8 @@ int my_num(int a){
 }
 
 int main(){
-    printf("This is a C program");
-    int a;
+    printf("This is a C program\n");
+    int a = 1;
     a = my_num(a);
     printf("%d",a);
     return 0;
