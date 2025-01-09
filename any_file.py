@@ -17,7 +17,6 @@ markov_bound(10,10)
 markov_bound(10,10)
 
 ## Compute Chebysev Bound on the random variable
-
 def chebysev_bound(sigma, k):
     '''Compute Chebysev Bound'''
     if k == 0:
